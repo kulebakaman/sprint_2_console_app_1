@@ -58,23 +58,24 @@ class AddGoods {
 		
 		System.out.println();
 		
-		sumOfGoods += sumOfGoods / number;
+		sumOfGoods += sumOfGoods;
+		double sumOfGoodsPart = sumOfGoods / number;
 		int sumOfGoodsIntPart = (int) sumOfGoods;
 		
 		if(sumOfGoodsIntPart == 0) {
-			System.out.println(String.format("Каждый человек должен заплатить %.2f рублей.", sumOfGoods));
+			System.out.println(String.format("Каждый человек должен заплатить %.2f рублей.", sumOfGoodsPart));
 		}else if(sumOfGoodsIntPart == 1) {
-			System.out.println(String.format("Каждый человек должен заплатить %.2f рубль.", sumOfGoods));
+			System.out.println(String.format("Каждый человек должен заплатить %.2f рубль.", sumOfGoodsPart));
 		}else if(sumOfGoodsIntPart >= 2 && sumOfGoodsIntPart <= 4) {
-			System.out.println(String.format("Каждый человек должен заплатить %.2f рубля.", sumOfGoods));
+			System.out.println(String.format("Каждый человек должен заплатить %.2f рубля.", sumOfGoodsPart));
 		}else if(sumOfGoodsIntPart >= 5 && sumOfGoodsIntPart <= 20) {
-			System.out.println(String.format("Каждый человек должен заплатить %.2f рублей.", sumOfGoods));
+			System.out.println(String.format("Каждый человек должен заплатить %.2f рублей.", sumOfGoodsPart));
 		}else if(sumOfGoodsIntPart == 21) {
-			System.out.println(String.format("Каждый человек должен заплатить %.2f рубль.", sumOfGoods));
+			System.out.println(String.format("Каждый человек должен заплатить %.2f рубль.", sumOfGoodsPart));
 		}else if(sumOfGoodsIntPart >= 22 && sumOfGoodsIntPart <= 24) {
-			System.out.println(String.format("Каждый человек должен заплатить %.2f рубля.", sumOfGoods));
+			System.out.println(String.format("Каждый человек должен заплатить %.2f рубля.", sumOfGoodsPart));
 		}else if(sumOfGoodsIntPart >= 25 && sumOfGoodsIntPart <= 30) {
-			System.out.println(String.format("Каждый человек должен заплатить %.2f рублей.", sumOfGoods));
+			System.out.println(String.format("Каждый человек должен заплатить %.2f рублей.", sumOfGoodPart));
 		}
 	}
 }
