@@ -75,7 +75,7 @@ class AddGoods {
 		}else if(sumOfGoodsIntPart >= 22 && sumOfGoodsIntPart <= 24) {
 			System.out.println(String.format("Каждый человек должен заплатить %.2f рубля.", sumOfGoodsPart));
 		}else if(sumOfGoodsIntPart >= 25 && sumOfGoodsIntPart <= 30) {
-			System.out.println(String.format("Каждый человек должен заплатить %.2f рублей.", sumOfGoodPart));
+			System.out.println(String.format("Каждый человек должен заплатить %.2f рублей.", sumOfGoodsPart));
 		}
 	}
 }
