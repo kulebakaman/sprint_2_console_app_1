@@ -58,7 +58,6 @@ class AddGoods {
 		
 		System.out.println();
 		
-		sumOfGoods += sumOfGoods;
 		double sumOfGoodsPart = sumOfGoods / number;
 		int sumOfGoodsIntPart = (int) sumOfGoods;
 		
